@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9EFFFC24-546D-4024-881D-B4E2C2B78121}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ApplicationGUI</RootNamespace>
+    <AssemblyName>ApplicationGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="View\AddBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AddBus.Designer.cs">
+      <DependentUpon>AddBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddCustomerDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AddCustomerDetails.Designer.cs">
+      <DependentUpon>AddCustomerDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AddDriver.Designer.cs">
+      <DependentUpon>AddDriver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AddStaff.Designer.cs">
+      <DependentUpon>AddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddStaffType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AddStaffType.Designer.cs">
+      <DependentUpon>AddStaffType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AdminMenu.Designer.cs">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL\Bus.cs" />
+    <Compile Include="BL\Customer.cs" />
+    <Compile Include="BL\Driver.cs" />
+    <Compile Include="BL\Person.cs" />
+    <Compile Include="BL\Staff.cs" />
+    <Compile Include="View\CancelSeat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CancelSeat.Designer.cs">
+      <DependentUpon>CancelSeat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomerMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CustomerMenu.Designer.cs">
+      <DependentUpon>CustomerMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DL\BusDL.cs" />
+    <Compile Include="DL\CustomerDL.cs" />
+    <Compile Include="DL\DriverDL.cs" />
+    <Compile Include="DL\PersonDL.cs" />
+    <Compile Include="DL\StaffDL.cs" />
+    <Compile Include="View\ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\RemoveBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RemoveBus.Designer.cs">
+      <DependentUpon>RemoveBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\RemoveStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RemoveStaff.Designer.cs">
+      <DependentUpon>RemoveStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SearchBusByDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SearchBusByDate.Designer.cs">
+      <DependentUpon>SearchBusByDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SearchBusByRoute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SearchBusByRoute.Designer.cs">
+      <DependentUpon>SearchBusByRoute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SearchEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SearchEmployee.Designer.cs">
+      <DependentUpon>SearchEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SelectBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SelectBus.Designer.cs">
+      <DependentUpon>SelectBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SignIn.Designer.cs">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UpdateBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UpdateBus.Designer.cs">
+      <DependentUpon>UpdateBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UpdateEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UpdateEmployee.Designer.cs">
+      <DependentUpon>UpdateEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UpdateSeat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UpdateSeat.Designer.cs">
+      <DependentUpon>UpdateSeat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewBus.Designer.cs">
+      <DependentUpon>ViewBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewBusForCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewBusForCustomer.Designer.cs">
+      <DependentUpon>ViewBusForCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewDriver.Designer.cs">
+      <DependentUpon>ViewDriver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewSeats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewSeats.Designer.cs">
+      <DependentUpon>ViewSeats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewStaff.Designer.cs">
+      <DependentUpon>ViewStaff.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\AddBus.resx">
+      <DependentUpon>AddBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AddCustomerDetails.resx">
+      <DependentUpon>AddCustomerDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AddDriver.resx">
+      <DependentUpon>AddDriver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AddStaff.resx">
+      <DependentUpon>AddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AddStaffType.resx">
+      <DependentUpon>AddStaffType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AdminMenu.resx">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CancelSeat.resx">
+      <DependentUpon>CancelSeat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CustomerMenu.resx">
+      <DependentUpon>CustomerMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\RemoveBus.resx">
+      <DependentUpon>RemoveBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RemoveStaff.resx">
+      <DependentUpon>RemoveStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SearchBusByDate.resx">
+      <DependentUpon>SearchBusByDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SearchBusByRoute.resx">
+      <DependentUpon>SearchBusByRoute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SearchEmployee.resx">
+      <DependentUpon>SearchEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SelectBus.resx">
+      <DependentUpon>SelectBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SignIn.resx">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UpdateBus.resx">
+      <DependentUpon>UpdateBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UpdateEmployee.resx">
+      <DependentUpon>UpdateEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UpdateSeat.resx">
+      <DependentUpon>UpdateSeat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewBus.resx">
+      <DependentUpon>ViewBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewBusForCustomer.resx">
+      <DependentUpon>ViewBusForCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewDriver.resx">
+      <DependentUpon>ViewDriver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewSeats.resx">
+      <DependentUpon>ViewSeats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewStaff.resx">
+      <DependentUpon>ViewStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Bus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus-logo-abstract.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmployeeLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Updatelogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viewBus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bus1.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

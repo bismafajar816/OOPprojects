@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="THESE FORMS ARE SHOWN IN CUSTOMER MENU">
+    <Position X="3.228" Y="7.557" Height="0.757" Width="1.353" />
+  </Comment>
+  <Comment CommentText="THESE FORMS ARE SHOWN IN ADMIN MENU">
+    <Position X="12.801" Y="4.522" Height="0.757" Width="1.353" />
+  </Comment>
+  <Comment CommentText="THESE FORMS ARE SHOWN IN LOGIN MENU">
+    <Position X="10.078" Y="3.301" Height="0.757" Width="1.353" />
+  </Comment>
+  <Class Name="ApplicationGUI.BL.Bus" Collapsed="true">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAlAAEAABEgAAABgAAABgAhBAAAEAAQAAgA=</HashCode>
+      <FileName>BL\Bus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BusDL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ApplicationGUI.BL.Person" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAADEAAAAQAAgAEAAEABQAAAAFEAACgAAAwgAABAA=</HashCode>
+      <FileName>BL\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.BL.Staff" Collapsed="true">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIJAEAAAQQAgAAEARAAgAAAAAQBAAAAAAACAAAAAAA=</HashCode>
+      <FileName>BL\Staff.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="StaffDL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ApplicationGUI.BL.Driver" Collapsed="true">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAACAAAAAAAAAIAAEAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Driver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DriverDL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ApplicationGUI.BL.Customer" Collapsed="true">
+    <Position X="10.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggIAAAAAIAEABAEAAAEAAAAAABAABAAAAAAAAICAAhI=</HashCode>
+      <FileName>BL\Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bus" />
+      <Property Name="CustomerDL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ApplicationGUI.DL.PersonDL" Collapsed="true">
+    <Position X="3.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABAAAQAAAAAAAAAAAAQACAAAAAAEAAABAIAAg=</HashCode>
+      <FileName>DL\PersonDL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ApplicationGUI.DL.StaffDL" Collapsed="true">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIQAAAAAACAAAAAQAAAAQAIAAAIABAIAAg=</HashCode>
+      <FileName>DL\StaffDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.DL.BusDL" Collapsed="true">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAACAAAUAAAAAAAAAAAAAAgAABAAAAABAAgIAAg=</HashCode>
+      <FileName>DL\BusDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.DL.CustomerDL" Collapsed="true">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAACAAQBAgAAAAAAAAAAAAIAAAAAgAAAABAAgg=</HashCode>
+      <FileName>DL\CustomerDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.DL.DriverDL" Collapsed="true">
+    <Position X="10.75" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAIAAAACAAABAQAAAAAgIAAAAABAIAAg=</HashCode>
+      <FileName>DL\DriverDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.ForgotPassword" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAAKAAAYAAgAECAAAQAAAAA=</HashCode>
+      <FileName>View\ForgotPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.Form1" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAQAACAAAFAAAMCAAgAKAEA4AAAAAHQIAQBAAAA=</HashCode>
+      <FileName>View\Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.SignUp" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAASIgABAQIACAAAACIAAIAAgAMIAAAQAAAAA=</HashCode>
+      <FileName>View\SignUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.SignIn" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAAQAACAAADAAAACAAAACAAAIAAgAEIAAAQAAAAA=</HashCode>
+      <FileName>View\SignIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.AdminMenu" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQAQCAgABAQAICAIAAKAgAcABAAAGAAAQBAAAA=</HashCode>
+      <FileName>View\AdminMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.AddBus" Collapsed="true">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAACAAABAAAACAAABCIAAQABAAEAAAAQAAAAA=</HashCode>
+      <FileName>View\AddBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.AddDriver" Collapsed="true">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAQAASAAABCAAACAQABCIAAQABAAEIAAAQAAAIA=</HashCode>
+      <FileName>View\AddDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.AddStaff" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAQAASAAABCAAACAAABCIAAQABAAEKAAAQAAAAA=</HashCode>
+      <FileName>View\AddStaff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.RemoveBus" Collapsed="true">
+    <Position X="6.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAQABAAEAAAAQAAAAA=</HashCode>
+      <FileName>View\RemoveBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.RemoveStaff" Collapsed="true">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAQABAAEAAAEQEAAAA=</HashCode>
+      <FileName>View\RemoveStaff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.ViewBus" Collapsed="true">
+    <Position X="8.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAACAAABAAAACAAAACAAkgAAACAAAAAAAAAAA=</HashCode>
+      <FileName>View\ViewBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.ViewDriver" Collapsed="true">
+    <Position X="4.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAACAAABAAAACAAAACAAkgAAACAAAAAAAAAAA=</HashCode>
+      <FileName>View\ViewDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.ViewStaff" Collapsed="true">
+    <Position X="6.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAABAABACAAAACAAkgAAACAAABAAAAAAA=</HashCode>
+      <FileName>View\ViewStaff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.CustomerMenu" Collapsed="true">
+    <Position X="6.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAACAgAFAQAICAIAAKAIAYAAAAAGAAAQBAAAA=</HashCode>
+      <FileName>View\CustomerMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.AddCustomerDetails" Collapsed="true">
+    <Position X="8.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>8SAAAAQAASAAABCAEgCCAAJCYAA4AAAAEPAIAAAAAIA=</HashCode>
+      <FileName>View\AddCustomerDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.CancelSeat" Collapsed="true">
+    <Position X="4.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAAAACAAAACAAAIAAgAEAAAAQAAAAA=</HashCode>
+      <FileName>View\CancelSeat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.UpdateSeat" Collapsed="true">
+    <Position X="10.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAAAACAAABCAAAQABAAEAAAAQAAAAA=</HashCode>
+      <FileName>View\UpdateSeat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.UpdateBus" Collapsed="true">
+    <Position X="10.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAACAAABAAAACAAAACAAAQABAAEAAAAQAAAAA=</HashCode>
+      <FileName>View\UpdateBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationGUI.UpdateEmployee" Collapsed="true">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAAAACAAAACAAAQABAAEAAAAQEAAAA=</HashCode>
+      <FileName>View\UpdateEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

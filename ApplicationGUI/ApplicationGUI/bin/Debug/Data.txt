@@ -1,0 +1,10 @@
+biha,1234,admin,1234567,swl
+kainat,12345,admin,12345678,swl
+kaka,123456,admin,1234356,abc
+areej,12345,customer,1234567,gdgdh
+hamna,xasd,admin,dasd,dsas
+jjj,jjj,customer,jjj,jjj
+xyz,123,customer,1234543,lhr
+atif,1234,customer,123456,DHA
+hania,1234,admin,09834283,swl
+saad,1234,customer,12345432,swl

@@ -1,0 +1,8 @@
+zzz,qsfd,customer,3456,3456,123,1475,12
+ali,2123,customer,123456,swl,123,3000,1211;13
+lali,1234,customer,2345678,swl,780,3000,16
+akka,1234,customer,1234543,swl,780,2100,19
+xyz,123,customer,12345,swl,982,2250,20
+atif,1234,customer,123456,dha,780,2250,10
+sadd,2341,customer,123456765,lhr,982,2100,9
+saaad,12134,customer,2345675,lhr,982,2100,2
